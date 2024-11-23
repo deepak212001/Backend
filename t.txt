@@ -1,0 +1,24 @@
+npm init :- use for create a empty node application so that we can intall all the other like express etc inside it.
+npm init    this is done by initializing an application form node package manager;
+
+npm init -y ;- yes for all 
+package name: (02_deploy_backend_code)
+version: (1.0.0)                                                                                                                                                          
+description:                                                                                                                                                              
+entry point: (index.js)                                                                                                                                                   
+test command:                                                                                                                                                             
+git repository:                                                                                                                                                           
+keywords:                                                                                                                                                                 
+author:                                                                                                                                                                   
+license: (ISC)  //by default
+es se package.json file create hoge  
+
+
+npm i express ;- for install express 
+
+
+npm i dotenv :- this is a package  which is use to allocation a free port 
+             when we deploy a project and a user use the portal that time this package allocation free port .
+             aur some line of code are sensitive and not to public so that time we also use this package .
+             
+             after insatll we need to create a new file  with name .env

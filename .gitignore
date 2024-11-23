@@ -1,0 +1,5 @@
+node_modules
+.env 
+# .env this file hase sensitive information so we donot public that file
+
+# .gitignore file is not upload  during the deploy
